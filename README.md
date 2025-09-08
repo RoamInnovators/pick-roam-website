@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# Roam - Workforce Monitoring Platform
 
-## Project info
+A comprehensive workforce monitoring solution with real-time tracking, QR code check-ins, incident reporting, and digital occurrence books.
 
-**URL**: https://lovable.dev/projects/ea7ececc-2c6d-4274-965f-d3080b85a341
+## Features
 
-## How can I edit this code?
+- **Real-time GPS Tracking**: Monitor field personnel locations
+- **QR Code Check-ins**: Streamlined attendance management
+- **Incident Reporting**: Quick incident logging with photo evidence
+- **Digital Occurrence Books**: Replace paper logs with digital records
+- **Role-based Dashboards**: Tailored interfaces for different user types
+- **Contact Form Integration**: Seamless communication with Resend email service
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- **Frontend**: React, TypeScript, Tailwind CSS, Vite
+- **Backend**: Node.js, Express
+- **Email Service**: Resend
+- **UI Components**: Radix UI, Lucide React
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ea7ececc-2c6d-4274-965f-d3080b85a341) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone this repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open [http://localhost:8080](http://localhost:8080) with your browser
 
-**Use your preferred IDE**
+## Backend Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Navigate to the backend directory: `cd backend`
+2. Install dependencies: `npm install`
+3. Create a `.env` file with your Resend API key
+4. Start the backend server: `npm run dev`
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Project Structure
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+├── src/
+│   ├── components/     # React components
+│   ├── pages/         # Page components
+│   ├── hooks/         # Custom React hooks
+│   ├── lib/           # Utility functions
+│   └── ui/            # UI components
+├── backend/
+│   ├── api/           # API endpoints
+│   └── server.js      # Express server
+├── public/            # Static assets
+└── package.json       # Dependencies and scripts
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ea7ececc-2c6d-4274-965f-d3080b85a341) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+See the deployment instructions provided in the chat for cPanel deployment.

@@ -21,6 +21,9 @@ const Header = () => {
           <a href="#dashboards" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
             Dashboards
           </a>
+          <a href="/contact" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+            Contact
+          </a>
         </nav>
         
         <div className="flex items-center space-x-4">
